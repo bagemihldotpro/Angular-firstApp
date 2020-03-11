@@ -1,0 +1,16 @@
+
+<button nbButton hero (click)="newGame()">Start NEW Game</button>
+
+<h1 *ngIf="!winner">Turn of player {{ player }} </h1>
+<h1 *ngIf="winner && winner != '0'">The winner is {{ winner }}</h1>
+<h1 *ngIf="winner == '0'">End of the game, let's play again!</h1>
+
+<main>
+    <app-square 
+        *ngFor="let val of squares; let i = index" 
+        [value]="val" 
+        (click)="makeMove(i)">
+
+    </app-square>
+
+</main>

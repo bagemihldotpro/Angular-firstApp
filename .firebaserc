@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "bagemihldotpro-tictactoe": {
+      "hosting": {
+        "firstApp": [
+          "bagemihldotpro-tictactoe"
+        ]
+      }
+    }
+  }
+}
