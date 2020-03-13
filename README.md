@@ -1,3 +1,9 @@
+*** Tic Tac Toe with Angular ***
+
+See it working at:
+https://bagemihldotpro-tictactoe.firebaseapp.com/
+
+
 # FirstApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
